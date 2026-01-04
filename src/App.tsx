@@ -1,4 +1,5 @@
 import "./App.css";
+import AddImg from "./components/AddImg";
 import SingleTier from "./components/SingleTier";
 import TitleContainer from "./components/TitleContainer";
 
@@ -8,6 +9,7 @@ function App() {
       <TitleContainer />
       <main className="w-full max-w-3xl mx-auto">
         <SingleTier />
+        <AddImg />
       </main>
     </div>
   );
